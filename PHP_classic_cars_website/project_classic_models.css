@@ -1,0 +1,346 @@
+html{
+    padding:0;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    color:white;
+}
+
+.header {
+background-color: black;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+.heading {
+    font: bold 50pt/150% Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: #fff;
+    margin-right: 3%;
+    height: 140px;
+    padding: 0%;
+}
+
+.pic {
+    padding: 1%;
+    width: 17%;
+    margin-left: 8%;
+    margin-bottom: -11.5%;
+    height:140px
+}
+
+.table {
+    padding: 0%;
+    overflow: hidden;
+    margin-top: -1%;
+}
+.productline {
+    font: normal 12px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; 
+    border: 5px solid #EBAB17; 
+    margin-left: 7%;
+    padding: 0%;
+    width: 85%;
+    overflow: hidden;
+    
+} 
+
+.productline th {
+    border-collapse: collapse;
+    padding: 1%;
+    
+    /* gradients used below were generated with colorzilla's ultimate CSS gradient generator at http://www.colorzilla.com/gradient-editor/*/
+    background:-moz-linear-gradient( center top, #CDD1C2 5%, #8C998E 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CDD1C2), color-stop(1, #8C998E) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CDD1C2', endColorstr='#8C998E');
+    background-color:#CDD1C2; 
+    color:#FFFFFF; 
+    font-size: 24px; 
+    font-weight: bold; 
+} 
+
+.productline td { 
+    color: #151617; 
+    font-size: 14px;
+    text-align: center;
+  
+}
+
+/* even and odd row rules looked up on w3 schools at https://www.w3.org/Style/Examples/007/evenodd.en.html*/
+.productline tr:nth-child(even){ 
+    background: #E6E9EB; 
+}
+
+.pfooter{
+    color: white;
+    font: 14pt, Arial, Helvetica, sans-serif; 
+    height: 5%;
+    text-align: center;
+    padding-top: 1% ;
+    margin-top: auto;
+}
+
+/*gradiant generated with colorzilla's ultimate CSS gradient generator at http://www.colorzilla.com/gradient-editor*/
+
+.btnsubmit{
+    background: #e1cd45 -webkit-linear-gradient(#e1cd45, #f68211);
+    background: linear-gradient(#e1cd45, #f68211);
+    border:2px solid #000;
+    border-radius: 5px;
+    color: #f3f3f3;
+    padding: 8px 16px;
+    font: 14pt Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #444;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+.form{
+    background: #E6E9EB;
+    border: 2px solid orange;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    width: 37%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: .5%;
+}
+
+.form p{
+    font-size: 20pt;
+    font-family:  Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+.navbar {
+    float:inherit;
+    padding:0%;
+    width:100%;
+    text-decoration: none;
+    text-align: center;
+    /*positioning code found at http://stackoverflow.com/questions/10789539/get-nav-menu-to-go-to-the-bottom-of-my-header courtasy of User Zeta*/
+    position:absolute; right:0; bottom:0;
+   
+}
+
+
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+   
+    }
+
+.navbar li{
+    float: inherit;
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: .75%;
+    width: 100%;
+    min-width: 450px;
+    background: #e1cd45 -webkit-linear-gradient(#e1cd45, #f68211);
+    background: linear-gradient(#e1cd45, #f68211);
+}
+
+
+.topnav a:hover {
+    cursor:pointer;
+}
+
+/*below code on how to have a link in a table and style it from Stackoverflow users CalvT and Uzair Bin Nisar at http://stackoverflow.com/questions/3337914/how-to-make-a-td-a-link*/
+
+td a{width:100%;display:block;}
+
+.processtbl{
+    font: normal 20px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; 
+    border: 5px solid #EBAB17; 
+    padding: 0%;
+    overflow: hidden;
+    width: 100%;
+} 
+
+.processtbl th {
+    border-collapse: collapse;
+    padding: 1%;
+    
+    /* gradients used below were generated with colorzilla's ultimate CSS gradient generator at http://www.colorzilla.com/gradient-editor/*/
+    background:-moz-linear-gradient( center top, #CDD1C2 5%, #8C998E 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CDD1C2), color-stop(1, #8C998E) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CDD1C2', endColorstr='#8C998E');
+    background-color:#CDD1C2; 
+    color:#FFFFFF; 
+    font-size: 18px; 
+    font-weight: bold; 
+} 
+
+.processtbl td { 
+    color: #151617; 
+    font-size: 14px;
+    text-align: center;
+  
+}
+
+/* even and odd row rules looked up on w3 schools at https://www.w3.org/Style/Examples/007/evenodd.en.html*/
+.processtbl tr:nth-child(even){ 
+    background: #E6E9EB; 
+}
+    
+
+
+.cancelledtbl{
+    font: normal 20px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; 
+    border: 5px solid #EBAB17; 
+    padding: 0%;
+    overflow: hidden;
+    width: 100%;
+    
+} 
+
+.cancelledtbl th {
+    border-collapse: collapse;
+    padding: 1%;
+    
+    /* gradients used below were generated with colorzilla's ultimate CSS gradient generator at http://www.colorzilla.com/gradient-editor/*/
+    background:-moz-linear-gradient( center top, #CDD1C2 5%, #8C998E 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CDD1C2), color-stop(1, #8C998E) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CDD1C2', endColorstr='#8C998E');
+    background-color:#CDD1C2; 
+    color:#FFFFFF; 
+    font-size: 18px; 
+    font-weight: bold;
+} 
+
+.cancelledtbl td { 
+    color: #151617; 
+    font-size: 14px;
+    text-align: center;
+  
+}
+
+/* even and odd row rules looked up on w3 schools at https://www.w3.org/Style/Examples/007/evenodd.en.html*/
+.cancelledtbl tr:nth-child(even){ 
+    background: #E6E9EB; 
+}
+ /*vertical align from W3 schools*/   
+.tbl{
+    display:inline-block;
+    vertical-align: top;
+    margin: 2%;
+    margin-left: 5%;
+    margin-top:-2%;
+    width: 23%
+}
+
+.tbl4{
+    display:inline-block;
+    vertical-align: top;
+    margin: 2%;
+    margin-left: 5%;
+    margin-top:-2%;
+    width: 23%
+    
+}
+.tbl2{
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 8%;
+    margin-right: 2%;
+    margin-top:-2%;
+    width: 23%;
+    
+    
+}
+
+.recenttbl{
+    font: normal 20px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; 
+    border: 5px solid #EBAB17; 
+    padding: 0%;
+    width: 100%;
+    
+} 
+
+.recenttbl th {
+    border-collapse: collapse;
+    padding: 1%;
+
+    
+    /* gradients used below were generated with colorzilla's ultimate CSS gradient generator at http://www.colorzilla.com/gradient-editor/*/
+    background:-moz-linear-gradient( center top, #CDD1C2 5%, #8C998E 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CDD1C2), color-stop(1, #8C998E) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CDD1C2', endColorstr='#8C998E');
+    background-color:#CDD1C2; 
+    color:#FFFFFF; 
+    font-size: 18px; 
+    font-weight: bold; 
+} 
+
+.recenttbl td { 
+    color: #151617; 
+    font-size: 14px;
+    text-align: center;
+  
+}
+
+/* even and odd row rules looked up on w3 schools at https://www.w3.org/Style/Examples/007/evenodd.en.html*/
+.recenttbl tr:nth-child(even){ 
+    background: #E6E9EB; 
+}
+      
+
+.detailtbl{
+    font: normal 20px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; 
+    border: 5px solid #EBAB17; 
+    padding: 0%;
+    overflow: hidden;
+    float:right;
+    width: 60%;
+    margin-top: -35%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    
+} 
+
+.detailtbl th {
+    border-collapse: collapse;
+    padding: 1%;
+    
+    /* gradients used below were generated with colorzilla's ultimate CSS gradient generator at http://www.colorzilla.com/gradient-editor/*/
+    background:-moz-linear-gradient( center top, #CDD1C2 5%, #8C998E 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CDD1C2), color-stop(1, #8C998E) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CDD1C2', endColorstr='#8C998E');
+    background-color:#CDD1C2; 
+    color:#FFFFFF; 
+    font-size: 18px; 
+    font-weight: bold; 
+} 
+
+.detailtbl td { 
+    color: #151617; 
+    font-size: 14px;
+    text-align: center;
+  
+}
+
+/* even and odd row rules looked up on w3 schools at https://www.w3.org/Style/Examples/007/evenodd.en.html*/
+.detailtbl tr:nth-child(even){ 
+    background: #E6E9EB; 
+}
+    
+}
